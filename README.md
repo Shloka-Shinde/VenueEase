@@ -7,7 +7,7 @@
 ## Demo
 Click on the thumbnail to watch the video! 
 
-[![Watch the Demo](./thumbnail.png)](https://drive.google.com/file/d/1lbcRn4qJBYYly-8iEORTcla9xspU0d98/view?usp=sharing)
+[![Watch the Demo](./thumbnail1.png)](https://drive.google.com/file/d/1lbcRn4qJBYYly-8iEORTcla9xspU0d98/view?usp=sharing)
 ---
 
 ## Features  

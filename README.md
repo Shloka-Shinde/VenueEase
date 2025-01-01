@@ -4,6 +4,10 @@
 ## Overview  
 **VenuEase** is a full-stack web application designed to simplify venue booking at COEP. It provides a seamless, user-friendly platform for students, faculty, and administrators to manage reservations for the Main Auditorium, Mini Auditorium, and Cognizant Lab. The system is tailored to eliminate traditional booking hurdles, offering features such as customizable seating, priority-based venue selection, and automated approvals.  
 
+## Demo
+Click on the thumbnail to watch the video! 
+
+[![Watch the Demo](./thumbnail.png)](https://drive.google.com/file/d/1lbcRn4qJBYYly-8iEORTcla9xspU0d98/view?usp=sharing)
 ---
 
 ## Features  
@@ -61,11 +65,6 @@
 2. Booking requests are processed based on availability, seating options, and priority preferences.  
 3. Admins review and approve/reject requests while managing venue availability and sending confirmation emails.  
 4. Users receive updates and can submit feedback after their event concludes.  
-
----
-
-## Demo  
-[Watch the Demo Video](#) *(Link to be added)*  
 
 ---
 

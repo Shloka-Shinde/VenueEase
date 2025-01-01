@@ -1,5 +1,3 @@
-# VenueEase
-Venue booking system 
 
 # VenuEase – Venue Booking System  
 

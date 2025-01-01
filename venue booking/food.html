@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEEDBACK</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+      * h1{
+        text-align: center;
+      }
+      * a{
+        text-decoration: none;
+        color: white;
+      }
+      .col-12 button{
+            background-color: #16845c;
+        }
+        .container-fluid{
+           background-color:#57cc99 ; 
+        }
+        .venu-ease {
+        color: black;
+        font-weight: bold;
+        font-size: 1.2rem;
+        margin-left: auto; /* Align to the right */
+    }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Your Profile
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Your Bookings</a></li>
+                      <li><a class="dropdown-item" href="#">Account & Settings</a></li>
+                      <li><a class="dropdown-item" href="#">LogOut</a></li>
+                    </ul>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="adminlogin.html">ADMIN LOGIN</a>
+              </li>             
+            </ul>
+          </div>
+          <span class="venu-ease">VenuEase</span>
+        </div>
+      </nav>
+      <br>
+      <h1>Order Food</h1>
+
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="time" class="form-label">Time(Enter in 24 hours format)</label>
+          <input type="number" class="form-control" id="inputEmail4">
+        </div>
+        <div class="col-md-6">
+          <label for="Venue" class="form-label">Venue</label>
+          <input type="text" class="form-control" id="inputPassword4">
+        </div>
+        <div class="col-12">
+          <label for="menu" class="form-label">Menu</label>
+          <input type="text" class="form-control" id="inputAddress" placeholder="Idli, Dosa, VadaPav etc...">
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Number of People</label>
+          <input type="number" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Caterer</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>Meta Canteen</option>
+            <option>Boat Club Canteen</option>
+            <option>Fusion</option>
+          </select>
+        </div>
+
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              I agree to cooperate for 10-15 minutes of delay
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary" id="submit">
+            <a href="foodSub.html">
+            Place Order
+          </a>
+          </button>
+        </div>
+      </form>
+<!--      <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+        import { getDatabase, ref,set, get, child } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+        
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+          apiKey: "AIzaSyCBkJz3QOWJpVOzyVC3SpVj0wR5VyqqOuI",
+          authDomain: "hackathon-5bc86.firebaseapp.com",
+          projectId: "hackathon-5bc86",
+          storageBucket: "hackathon-5bc86.appspot.com",
+          messagingSenderId: "458704244602",
+          appId: "1:458704244602:web:abbe9671237f89863950c3"
+        };
+      
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+
+        //get ref to databases service
+        const db=getDatabase(app);
+
+        document.getElementById("submit").addEventListener('click',function(e)){
+          set(ref(db,'user/'))
+        }
+      </script>-->
+
+     <script type = "module">
+
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+  import {getdatabase , ref, set, get, child} from "https://www.gstatic.com/firebasejs/10.11.0/firebase-database.js"
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyD4NO9FovjhoE5yfwoyNZGB4aB_zJQTZGw",
+    authDomain: "venuease-625f6.firebaseapp.com",
+    projectId: "venuease-625f6",
+    storageBucket: "venuease-625f6.appspot.com",
+    messagingSenderId: "461434112170",
+    appId: "1:461434112170:web:f39c6febf64f7d47c668d3"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+
+  //get ref to databases service
+  const db=getDatabase(app);
+
+  document.getElementById("submit").addEventListener('click',function(e){
+    e.preventDefault();
+    set(ref(db,'user/'+document.getElementById("time").value),
+    {
+      time: document.getElementById("time").value,
+      venue: document.getElementById("venue").value,
+      menu: document.getElementById("menu").value,
+      ppl: document.getElementById("ppl").value,
+      caterer: document.getElementById("caterer").value          
+    });
+    alert("Order Placed!")
+  })
+
+     </script> 
+     
+</body>
+</html>

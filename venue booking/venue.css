@@ -1,0 +1,237 @@
+body{
+  margin: 0%;
+}
+.desktop-1 .coep-tech-black-1 {
+  background: url('coepTechBlack1.png') 50% / cover no-repeat;
+  margin-right: 10.4px;
+  width: 50px;
+  height: 57px;
+}
+.desktop-1 .venu-ease {
+  mix-blend-mode: darken;
+  margin: 6px 0 3px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 40px;
+  color: #000000;
+}
+.desktop-1 .container-1 {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.desktop-1 .about-coep {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+.desktop-1 .container-9 {
+  border-radius: 24px;
+  background: #FFFFFF;
+  position: relative;
+  margin: 1px 25px 0 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 7.5px 0 6.5px 0;
+  width: 161px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.desktop-1 .sign-in {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 800;
+  font-size: 20px;
+  color: #000000;
+}
+.desktop-1 .container-2 {
+  border-radius: 24px;
+  background: #FFFFFF;
+  position: relative;
+  margin-bottom: 1px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 8px 19.3px 6px 19.3px;
+  width: 113px;
+  box-sizing: border-box;
+}
+.desktop-1 .container-8 {
+  margin: 11px 0 7px 0;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+}
+.desktop-1 .container-5 {
+  background: #BFFFE8;
+  position: relative;
+  margin-bottom: 30.5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3px 56px 7px 59px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.desktop-1 .book-now {
+  margin: 0 0 30.5px 32px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 800;
+  font-size: 30px;
+  color: #005235;
+}
+.desktop-1 .rectangle-18 {
+  border-radius: 23px;
+  background: url('rectangle7.jpeg');
+  margin-bottom: 26px;
+  width: 297px;
+  height: 304px;
+}
+.desktop-1 .cognizant-lab {
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 0.5;
+  color: #000000;
+}
+.desktop-1 .container-3 {
+  border-radius: 24px;
+  background: linear-gradient(180deg, #FFFFFF, #FFFFFF);
+  position: relative;
+  margin-bottom: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px 14px 19px 14px;
+  width: 325px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.desktop-1 .image-1 {
+  border-radius: 23px;
+  background: url("image3.png") 40% / cover no-repeat;
+  margin-bottom: 26px;
+  width: 297px;
+  height: 304px;
+}
+.desktop-1 .main-auditorium {
+  margin-left: 3px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 0.5;
+  color: #000000;
+}
+.desktop-1 .container {
+  border-radius: 24px;
+  background: linear-gradient(180deg, #FFFFFF, #FFFFFF);
+  position: relative;
+  margin-top: 11px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 13px 15px 30px 13px;
+  width: 325px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.desktop-1 .download-1 {
+  border-radius: 23px;
+  background: url("miniaudi11.jpeg") 50% / cover no-repeat;
+  margin-bottom: 26px;
+  width: 297px;
+  height: 304px;
+}
+.desktop-1 .mini-auditorium {
+  margin-left: 4px;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 0.5;
+  color: #000000;
+}
+.desktop-1 .container-4 {
+  border-radius: 24px;
+  background: linear-gradient(180deg, #FFFFFF, #FFFFFF);
+  position: relative;
+  margin: 6px 0 5px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 18px 16px 25px 12px;
+  width: 325px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.desktop-1 .container-6 {
+  border-radius: 30px;
+  background: rgba(229, 255, 246, 0.61);
+  position: relative;
+  margin: 0 59px 59px 56px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 250px;
+  padding: 28px 54px 26px 30px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.desktop-1 .rectangle-15 {
+  border-radius: 20px;
+  background: #FFFFFF;
+  position: absolute;
+  top: 22px;
+  width: 1481px;
+  height: 398px;
+}
+.desktop-1 .about-venu-ease {
+  position: relative;
+  margin: 0 11px 42px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 0.5;
+  color: #000000;
+}
+.desktop-1 .welcome-to-our-venue-booking-platform-tailored-for-coeps-administrators-teachers-and-club-members-easily-reserve-college-venues-for-events-workshops-and-gatherings-our-user-friendly-interface-ensures-hassle-free-bookings-empowering-you-to-focus-on-organizing-successful-events-with-convenient-access-to-coeps-diverse-and-well-equipped-spaces-bring-your-ideas-to-life-and-foster-innovation-within-our-vibrant-community-join-us-in-shaping-the-future-of-technology-and-collaboration-at-coeps-premier-venue-booking-platform {
+  position: relative;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Inter';
+  font-weight: 200;
+  font-size: 24px;
+  line-height: 1.25;
+  color: #000000;
+}
+.desktop-1 .container-7 {
+  border-radius: 25px;
+  background: #ECECEC;
+  position: relative;
+  margin-left: 1px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 51px 46.9px 284px 51.9px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.desktop-1 {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100% ;
+  box-sizing: border-box;
+}
